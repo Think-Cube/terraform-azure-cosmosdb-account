@@ -28,7 +28,7 @@ variables:
   - name: MODULE_NAME
     value: "terraform-azure-cosmosdb-account"
   - name: MODULE_DESCRIPTION
-    value: "Terraform module for azure resource group"
+    value: "Terraform module for azure cosmosdb account"
 pool:
   vmImage: $(VM_IMAGE)
 stages:
