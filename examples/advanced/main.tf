@@ -1,5 +1,5 @@
 module "cosmosdb_account" {
-  source = "github.com/Think-Cube/terraform-azure-cosmosdb-account?ref=v1.0.0"
+  source = "../.."
 
   name                              = "cosmos-prod-example"
   resource_group_name               = "rg-example"
