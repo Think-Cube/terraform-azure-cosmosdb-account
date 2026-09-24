@@ -1,4 +1,3 @@
-<!-- BEGIN_TF_DOCS -->
 # Example: Advanced — Azure Cosmosdb Account
 
 Provisions an Azure Cosmos DB Account with configurable consistency and geo-replication. Full-featured example with optional configuration blocks enabled.
@@ -64,17 +63,3 @@ module "cosmosdb_account" {
   }
 }
 ```
-
-## Requirements
-
-| Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.9.0 |
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | ~> 5.0 |
-
-## Modules
-
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_cosmosdb_account"></a> [cosmosdb\_account](#module\_cosmosdb\_account) | ../.. | n/a |
-<!-- END_TF_DOCS -->
